@@ -14,7 +14,17 @@
 
 #### Descrição
 
-Continuacao do market place de tatuagem do projeto anterior, sera implementado login, com login para cliente e tatuador, quando logado com tatuador, tera paginas diferentes, mais de administrar pagina pessoal e pedidos de orcamento, e quando logado com cliente tera as paginas para market, com opcoes de tatuadores, de categorias, e para pedir orcamento, e no perfil pessoal do cliente tera seus pedidos de orcamento e o status deles
+!! IDEIA INICIAL
+
+Continuacao do market place de tatuagem do projeto anterior, sera implementado login, com login para cliente e tatuador, quando logado com tatuador, tera paginas diferentes, mais de administrar pagina pessoal e pedidos de orcamento, e quando logado com cliente tera as paginas para market, com opcoes de tatuadores, de categorias, e para pedir orcamento, e no perfil pessoal do cliente tera seus pedidos de orcamento e o status deles.
+
+Os pedidos de orcamento do lado do tatuador seria uma lista com orcamentos pendentes, o tatuador pode clicar em um orcamento, que abriria uma pagina detalhando o orcamento, e este "responde" com o preco.
+
+Os pedidos de orcamento do lado do usuario seria uma lista com os pedidos de orcamento deste, que tem um status, os orcamentos que ja tiveram resposta seriam atualizados com por exemplo a cor verde e o preco. Orcamentos sem resposta ficariam cinza por exemplo e com a mensagem "pendente".
+
+As paginas que o tatuador tem acesso, sao a de perfil proprio e de orcamentos pendentes e de orcamentos ja aprovados. Em primeiro momento este nao pode editar seu perfil, as informacoes sao colocados quando o perfil eh criado. A pagina de orcamentos pendentes seria uma lista com os pedidos de orcamento onde ele entra no orcamneto e aprova ele respondendo um preco.  A pagina de orcamentos ja aprovados, seria apenas uma lista com o pedido do orcamento e o preco que o proprio retornou.
+
+As paginas que o usuario/cliente tem acesso seria as que ja foram implementadas, onde ele tem acessoa lista de categorias, de tatuadores, e para pedido de um novo orcamento. A pagina que seria adicionada seria a de perfil proprio e uma pagina com uma lista de orcamentos que este pediu, os orcamentos aprovados mudaria a cor e teria o preco nele.
 
 
 
