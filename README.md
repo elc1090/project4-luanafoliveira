@@ -14,7 +14,9 @@
 
 #### Descrição
 
-Preencha aqui uma descrição sucinta do projeto (tema e funcionalidades)
+Continuacao do market place de tatuagem do projeto anterior, sera implementado login, com login para cliente e tatuador, quando logado com tatuador, tera paginas diferentes, mais de administrar pagina pessoal e pedidos de orcamento, e quando logado com cliente tera as paginas para market, com opcoes de tatuadores, de categorias, e para pedir orcamento, e no perfil pessoal do cliente tera seus pedidos de orcamento e o status deles
+
+
 
 #### Deploy
 
