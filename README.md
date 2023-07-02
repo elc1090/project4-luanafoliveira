@@ -46,10 +46,9 @@ GitHub
 
 Wallpaper feito por: Katiany Echevarria Pinto
 
-Preencha aqui uma lista detalhada de recursos aproveitados no projeto, por exemplo:
-- URL de templates usados
-- URL de icon kits usados
-- Créditos para colegas que colaboraram
+- Peguei as informacoes dos tatuadores, bem como suas fotos de perfil e de exemplo do instagram de cada, segue a lista com o instagram desses:
+- @maico_borges, @igortattoocs, @flavio_bunker_tattoo, @rodrigocosta_tattoo, @andreipagel, @rafa.handpoke, @corvo_tattoo, @fabianoptattoo, danicunha.ink
+
 
 #### Bastidores
 
