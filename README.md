@@ -1,39 +1,30 @@
 # Tattoo Market
 
-> 1. Baixe este arquivo e edite o texto em formato Markdown conforme as instruções a seguir.
-> 2. Substitua todos os blocos "Preencha aqui" por informações do seu projeto. 
-> 3. Substitua a imagem por pelo menos um screenshot do projeto (arquivo pode ser armazenado no repositório ou em URL externa). GIFs animados também são permitidos!
-> 4. Remova todas as instruções de entrega.
-> 5. Double-check: Certifique-se de que seu README.md não contenha instruções de entrega!
-> 6. Entregue este README.md dentro da pasta raiz do seu repositório de entrega. 
-
-> Opcional: você pode alterar a formatação do README, mas mantenha todas as informações solicitadas
-
 ![Screenshot do projeto](https://mdswanson.com/static/chops-ux-step-4.png "Screenshot do projeto").
 
 
 #### Descrição
 
-!! IDEIA INICIAL
+A ideia do site eh de ser um market place para tatuagem. Teriam dois tipos de usuarios, tatuador e cliente. O objetivo seria para facilitar os tatuadores para administrar seus orcamentos, e ter mais visibilidade e para o cliente o objetivo seria de tonar mais facil para encontrar o tatuador que deseja e pedir um orcamento.
 
-Continuacao do market place de tatuagem do projeto anterior, sera implementado login, com login para cliente e tatuador, quando logado com tatuador, tera paginas diferentes, mais de administrar pagina pessoal e pedidos de orcamento, e quando logado com cliente tera as paginas para market, com opcoes de tatuadores, de categorias, e para pedir orcamento, e no perfil pessoal do cliente tera seus pedidos de orcamento e o status deles.
+O cliente pode procurar tatuadores na lista de tatuadores ou por categoria do tipo de tatuagem que ele quer, cada tatuador tem uma categoria. O cliente pode acahar o tatuador que deseja e pedir um orcamento para este, o orcamento deve conter uma foto da inspiracao, uma descricao da tatuagem e especificar o local do corpo,tamanho e cor. O cliente pode acessar seus orcametos na pagina com a lsita de orcamentos que sao separados de acordo com seu status, pendente ou aprovado.
 
-Os pedidos de orcamento do lado do tatuador seria uma lista com orcamentos pendentes, o tatuador pode clicar em um orcamento, que abriria uma pagina detalhando o orcamento, e este "responde" com o preco.
+O tatuador pode visualizar seu perfil proprio e seus orcamentos. Os orcamentos ficam tambem dividos entre aprovados e pendentes. Quando o tatuador acessa um orcamento especifico ele pode ver os detalhes e colocar um preco para este orcamento e aprova-lo.
 
-Os pedidos de orcamento do lado do usuario seria uma lista com os pedidos de orcamento deste, que tem um status, os orcamentos que ja tiveram resposta seriam atualizados com por exemplo a cor verde e o preco. Orcamentos sem resposta ficariam cinza por exemplo e com a mensagem "pendente".
+Um detalhe que pelo tempo nao foi implementado eh dos usuarios poderem editar seu perfil.
 
-As paginas que o tatuador tem acesso, sao a de perfil proprio e de orcamentos pendentes e de orcamentos ja aprovados. Em primeiro momento este nao pode editar seu perfil, as informacoes sao colocados quando o perfil eh criado. A pagina de orcamentos pendentes seria uma lista com os pedidos de orcamento onde ele entra no orcamneto e aprova ele respondendo um preco.  A pagina de orcamentos ja aprovados, seria apenas uma lista com o pedido do orcamento e o preco que o proprio retornou.
-
-As paginas que o usuario/cliente tem acesso seria as que ja foram implementadas, onde ele tem acessoa lista de categorias, de tatuadores, e para pedido de um novo orcamento. A pagina que seria adicionada seria a de perfil proprio e uma pagina com uma lista de orcamentos que este pediu, os orcamentos aprovados mudaria a cor e teria o preco nele.
-
-
+Ja foram cadastrados 10 tatuadores, um para cada categoria. Para cadastrar um novo tatuador alem de informacoes basicas eh necessario colocar o link para foto de perfil, e links para quatro exemplos de tatuagens deste.
 
 #### Deploy
 
 https://tattoomarket.onrender.com/
 #### Testes
 
-Preencha aqui sugestões de tarefas a serem realizadas por usuários testadores (por exemplo, cadastro de usuário, inserção de dados, busca, etc.).
+Para os testes pode-se criar um perfil de cliente e procurar tatuadores para pedir orcamentos.
+Ja tem um cliente cadastrado com o meu email que ja tem orcamentos, que foram usados para teste, segue o login e senha->  email: luluoliveira7@gmail.com  , senha: senha
+Pode tambem criar o perfil de um tatuador e administrar os orcamentos que foram mandados para ele. Como aprovar orcamentos, mudar preco etc.
+Vou deixar um arquivo com o login de todos os tatuadores ja cadastrados.
+
 
 #### Desenvolvedor(es)
 Luana Ferreira Oliveira
@@ -53,6 +44,8 @@ Visual Studio Code
 GitHub
 #### Créditos
 
+Wallpaper feito por: Katiany Echevarria Pinto
+
 Preencha aqui uma lista detalhada de recursos aproveitados no projeto, por exemplo:
 - URL de templates usados
 - URL de icon kits usados
@@ -60,8 +53,7 @@ Preencha aqui uma lista detalhada de recursos aproveitados no projeto, por exemp
 
 #### Bastidores
 
-
-Preencha aqui um breve relato dos bastidores e das particularidades do desenvolvimento do projeto, por exemplo: escolha do tema, algum detalhe marcante sobre as tecnologias usadas/aprendidas, bugs encontrados, alguma parte mais trabalhosa de implementar, etc.
+A maior dificuldade foi em como comunicar para o front e para o back qual usuario estava logado. Primeiro tentei fazer com o local storage do react porem ele nao esta dando o resultado que eu precisva entao mudei a maneira de fazer, colocando o email do usuario locado nas urls e passando de pagina para pagina. Estam maneira nao eh a ideial, porem para este projeto achei melhor deste jeito do que lutar com o local storage.
 
 
 
