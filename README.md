@@ -1,9 +1,9 @@
 # Tattoo Market
 
-![Screenshot do projeto](https://mdswanson.com/static/chops-ux-step-4.png "Screenshot do projeto").
-
+![Screenshot do projeto](https://raw.githubusercontent.com/elc1090/project4-luanafoliveira/main/print2.png).
 
 #### Descrição
+## Link para o repositorio com o codigo: https://github.com/elc1090/project3-luanaTattoo/tree/main
 
 A ideia do site eh de ser um market place para tatuagem. Teriam dois tipos de usuarios, tatuador e cliente. O objetivo seria para facilitar os tatuadores para administrar seus orcamentos, e ter mais visibilidade e para o cliente o objetivo seria de tonar mais facil para encontrar o tatuador que deseja e pedir um orcamento.
 
